@@ -1,8 +1,12 @@
 import React from 'react';
+import MainPage from './Views/MainPage'
 
 function App() {
+
   return (
-    <div></div>
+    <div className="app">
+      <MainPage/>
+    </div>
   );
 }
 
